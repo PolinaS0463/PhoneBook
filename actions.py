@@ -135,18 +135,6 @@ def find_contact():
                     count_suitable = 0
                 if count_lines == 0:
                     print("По вашему запросу ничего не найдено!")
-                # for line in phonebook:
-                #     if line_num > 0:
-                #         for key in dict:
-                #             if key == line[:-1].split(" ")[dict.get(key)]:
-                #                 count_suitable += 1
-                #         if count_suitable == len(dict):
-                #             print(line[:-1])
-                #             count_lines += 1
-                #             count_suitable = 0
-                #     line_num += 1
-                # if count_lines == 0:
-                #     print("По вашему запросу ничего не найдено!")
     
 def exit():
     sys.exit()
